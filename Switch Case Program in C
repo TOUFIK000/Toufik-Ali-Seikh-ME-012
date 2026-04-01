@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int x;
+
+    printf("Enter x: ");
+    scanf("%d", &x);
+
+    switch(x) {
+        case 1:
+            printf("Monday\n");
+            break;
+
+        case 2:
+            printf("Tuesday\n");
+            break;
+
+        default:
+            printf("Invalid input\n");
+    }
+
+    return 0;
+}
